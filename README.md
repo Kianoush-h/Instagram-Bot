@@ -1,4 +1,13 @@
 # Instagram Bot
+I created an Instagram bot that can like, comment, and follow different users based on your preferences. It can search through many tags that you provide for it and follow post owners if you do not have them in your followers.
+
+The code can be modified to work on any social media such as LinkedIn, Pinterest, Twitter, Facebook, etc.
+
+
+Please feel free to give me your feedback or share your experience.
+
+
+
  Automate your Instagram activity with two approaches:
  
 	1) WEB scraping 
@@ -183,9 +192,10 @@ You can check other properties on the InstaBot page.
 
 In the next versions, I will design a GUI for it, which you do not need to edit the code manually anymore, and you can see a user-friendly app like my other apps.
 
+The code can be modified to work on any social media such as LinkedIn, Pinterest, Twitter, Facebook, etc.
 
-Moreover, please feel free to give us your feedback to share your experience.
 
+Please feel free to give me your feedback or share your experience.
 
 # Contact Me
 
