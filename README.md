@@ -1,10 +1,15 @@
 # Instagram Bot
  Automate your Instagram activity with two approaches:
 	1) InstaBot >> a customisable bot that likes, follows and comments
-	2) WEB scrapping 
+	2) WEB scraping 
 	
 
 
+
+
+## WEB scraping
+
+To be clear, I’m not using this bot intensively, as Instagram will stop responding if you run it too fast. It needs to have some sleep commands in between the actions, because after some comments and follows in a short period of time, Instagram stops responding and the bot crashes.
 
 
 
@@ -13,7 +18,7 @@ Moreover, please feel free to give us your feedback to share your experience.
 
 
 
-![YouTubeDownloader](./etcs/sample.gif)
+![Instagram](./etc/scrap-sample.gif)
 
 
 
