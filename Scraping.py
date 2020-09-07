@@ -22,7 +22,7 @@ import pandas as pd
 username_ = 'kia_python'
 password_ = 'KIA_python@'
 
-hashtag_list = ['python', 'programmer', 'code', 'linux', 'insta']
+hashtag_list = ['python proj', 'best', 'code', 'linux', 'insta']
 
 
 # chromedriver_path = 'chromedriver.exe' # Change this to your own chromedriver path!
@@ -45,7 +45,7 @@ notnow.click()
 
 
 
-for i in range(2):
+for i in range(3):
     try:
         notnow = webdriver.find_element_by_xpath('/html/body/div[4]/div/div/div/div[3]/button[2]')
         notnow.click()
@@ -75,7 +75,7 @@ for hashtag in hashtag_list:
         first_thumbnail = webdriver.find_element_by_xpath('//*[@id="react-root"]/section/main/article/div[1]/div/div/div[1]/div[1]/a/div')
         
         first_thumbnail.click()
-        sleep(2)    
+        sleep(5)    
         try:        
             for x in range(1,10):
                 username = webdriver.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/header/div[2]/div[1]/div[1]/span/a').text
@@ -94,7 +94,7 @@ for hashtag in hashtag_list:
                         button_like = webdriver.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/div[3]/section[1]/span[1]/button/div/span')                    
                         button_like.click()
                         likes += 1
-                        sleep(2)
+                        sleep(3)
     
                         # Comments and tracker
                         comm_prob = randint(1,10)
@@ -122,10 +122,10 @@ for hashtag in hashtag_list:
     
                     # Next picture
                     webdriver.find_element_by_link_text('Next').click()
-                    sleep(2)
+                    sleep(5)
                 else:
                     webdriver.find_element_by_link_text('Next').click()
-                    sleep(2)
+                    sleep(5)
         
         except:
             continue
@@ -134,7 +134,6 @@ for hashtag in hashtag_list:
             webdriver.find_element_by_xpath('/html/body/div[5]/div/div/div/div[2]/button[2]').click()
         except:
             continue
-
 
 
 
