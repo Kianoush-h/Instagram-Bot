@@ -13,20 +13,8 @@ The code tries to login with your username and password. Then, searched for rand
 Furthermore, the code puts comments randomly. You can modifiy the list of comments which by default it is:
 
 ```
- if comm_prob > 4:
-	comments += 1 
-	if (comm_prob > 8):
-		comment_box.send_keys('Really cool!')
-		sleep(1)
-	elif (comm_prob > 7) and (comm_prob < 9):
-		comment_box.send_keys('Nice work :)')
-		sleep(1)
-	elif comm_prob > 6:
-		comment_box.send_keys('Nice gallery!!')
-		sleep(1)
-	elif comm_prob > 5:
-		comment_box.send_keys('So cool! :)')
-		sleep(1)
+Really cool!' , 'Nice work :)' , 'Nice gallery!!' , 'So cool! :)'
+
 ```
 
 
