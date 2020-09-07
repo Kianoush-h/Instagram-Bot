@@ -1,6 +1,8 @@
 # Instagram Bot
  Automate your Instagram activity with two approaches:
+ 
 	1) WEB scraping 
+	
 	2) InstaBot >> a customizable bot that likes, follows, and comments
 
 	
